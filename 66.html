@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container body-like">
+			<div class="row">
+				<div class="col-3">
+		
+		<div class="logo">recomm</div>
+           <nav class="nav flex-column">
+  
+  <a class="nav-link menu_item" href="#"><i class="far fa-chart-bar"></i>Cтатистика профиля</a>
+  <a class="nav-link menu_item" href="#"><i class="far fa-caret-square-left"></i>Рекомендации на меня</a>
+  <a class="nav-link menu_item" href="#"><i class="far fa-caret-square-right"></i>Рекомендации от меня</a>
+   <a class="nav-link menu_item" href="#"><i class="far fa-file-alt"></i>Отчёты</a>
+  
+</nav>
+
+		         </div><!--end column first-->
+
+		         <div class="col-9">
+		         	<div class="up_block">
+		         		<div class="row">
+		         			<div class="col-8">
+		   
+  <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="ФИО, наименование компании" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
+  </div>
+</div>      				 
+      
+		         			</div><!--end col-8-->
+		         			<div class="col-4">Даниил Петропольский <i class="fas fa-cog"></i></div>
+		         		</div><!--end row-->
+		         	</div><!--end up_block-->
+		         	<div class="content_like">
+		         		<div class="button_uprav">
+		         			<div class="row justify-content-between">
+		         				<div class="col-3">
+		         					<button type="button" class="btn btn-primary "><i class="fas fa-stream"></i> Фильтры</button>
+		         					</div>
+		         					
+		         					<div class="col-5">
+		         						<button type="button" class="btn btn-primary "><i class="fas fa-download"></i> Скачать </button>
+		         						<button type="button" class="btn btn-primary"><i class="fas fa-upload"></i> Выгрузить</button>
+		         					</div>
+		         					 
+
+
+
+		         			</div>
+		         		</div><!--end button_uprav-->
+                    <div class="table_like_head">
+                    	<div class="row">
+                    		<div class="col-2 cell ">Рекомендатель</div>
+                    		<div class="col-3 cell ">Личные</div>
+                            <div class="col-3 cell">Корпоративные</div> 
+                            <div class="col-1 cell">Дата</div> 
+                            <div class="col-3 cell">Статус</div> 
+                    	</div>
+                    </div><!--end table_like_head-->
+                    <div class="close_profile ">
+                    	  <div class="row">
+                             <div class="col-2 cell px-4">
+                              <i class="far fa-check-circle"></i> ИП Соколовский
+                             </div>
+                             <div class="col-3 cell "></div>
+                            <div class="col-3 cell"></div> 
+                            <div class="col-1 cell"></div> 
+                             <div class="col-3 ">
+                             	<div class="row">
+                             		<div class="col-8">
+                              Черновик запроса 
+                                </div>
+                                    <div class="col-4"> 
+                                <div class="strelka"><i class="fas fa-angle-down"></i></div>
+                                     </div>
+                                </div>
+                             </div>
+                            </div>
+                    
+                    </div><!--end of close_profile-->
+                     <div class="close_profile ">
+                    	  <div class="row">
+                             <div class="col-2 cell px-4">
+                              <i class="far fa-check-circle"></i> ООО Домоводство
+                             </div>
+                             <div class="col-3 cell "></div>
+                            <div class="col-3 cell"></div> 
+                            <div class="col-1 cell"></div> 
+                             <div class="col-3 ">
+                             	<div class="row">
+                             		<div class="col-8">
+                              Отправлен запрос 
+                                </div>
+                                    <div class="col-4"> 
+                                <div class="strelka"><i class="fas fa-angle-down"></i></div>
+                                     </div>
+                                </div>
+                             </div>
+                            </div>
+                    
+                    </div><!--end of close_profile-->
+                       <div class="close_profile ">
+                    	  <div class="row">
+                             <div class="col-2 cell px-4">
+                               ИП Петропольский
+                             </div>
+                             <div class="col-3 cell "><i class="fas fa-hand-holding-usd"></i><i class="fas fa-shield-alt"></i>  <i class="fas fa-wrench"></i> <i class="fas fa-handshake"></i></div>
+                            <div class="col-3 cell"></div> 
+                            <div class="col-1 cell">январь 2018</div> 
+                             <div class="col-3 ">
+                             	<div class="row">
+                             		<div class="col-8">
+                              Действующая 
+                                </div>
+                                    <div class="col-4"> 
+                                <div class="strelka"><i class="fas fa-angle-down"></i></div>
+                                     </div>
+                                </div>
+                             </div>
+                            </div>
+                    
+                    </div><!--end of close_profile-->
+                      <div class="close_profile ">
+                    	  <div class="row">
+                             <div class="col-2 cell px-4">
+                             <i class="far fa-check-circle"></i>  ИП Иванов
+                             </div>
+                             <div class="col-3 cell "><i class="fas fa-hand-holding-usd"></i><i class="fas fa-shield-alt"></i>  <i class="fas fa-wrench"></i> <i class="fas fa-handshake"></i></div>
+                            <div class="col-3 cell"></div> 
+                            <div class="col-1 cell">январь 2018</div> 
+                             <div class="col-3 ">
+                             	<div class="row">
+                             		<div class="col-8">
+                              Действующая 
+                                </div>
+                                    <div class="col-4"> 
+                                <div class="strelka"><i class="fas fa-angle-down"></i></div>
+                                     </div>
+                                </div>
+                             </div>
+                            </div>
+                    
+                    </div><!--end of close_profile-->
+                      
+                        <div class="close_profile ">
+                    	  <div class="row">
+                             <div class="col-2 cell px-4">
+                             <i class="far fa-check-circle"></i>  ИП Сидоров
+                             </div>
+                             <div class="col-3 cell "><i class="fas fa-hand-holding-usd"></i><i class="fas fa-shield-alt"></i>  <i class="fas fa-wrench"></i> <i class="fas fa-handshake"></i></div>
+                            <div class="col-3 cell"></div> 
+                            <div class="col-1 cell">январь 2018</div> 
+                             <div class="col-3 ">
+                             	<div class="row">
+                             		<div class="col-8">
+                              Действующая 
+                                </div>
+                                    <div class="col-4"> 
+                                <div class="strelka"><i class="fas fa-angle-down"></i></div>
+                                     </div>
+                                </div>
+                             </div>
+                            </div>
+                    
+                    </div><!--end of close_profile-->
+		         	</div><!--end of content_like-->
+		         </div><!--end column second-->
+
+		      </div><!--end first row-->
+		    </div><!--end container-->  
+	    
+	</body>
+
+</html>

@@ -1,0 +1,92 @@
+body {
+	background-color: #e9e9ef;
+	padding: 10px;
+}
+
+.body-like {
+	background-color: #ffffff;
+	max-width: 1200px;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 27px;
+	margin-top: 68px;
+	margin-bottom: 50px;
+}
+
+a.menu_item {
+	font-size:14px;
+	width: 258px;
+	color:#6db8c4;
+	
+}
+
+a.menu_item i {
+	font-size:28px;
+	margin-right: 30px;
+}
+.up_block {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.up_block button {
+	border:1px solid #d5d1de;
+}
+
+.up_block i {
+	color:#6eb9c5;
+}
+
+.content_like {
+	background-color: #e9e9ef;
+	font-size: 14px;
+	padding-left: 22px;
+
+}
+
+.button_uprav button {
+	background-color: #6eb9c5;
+	font-size: 16px;
+	margin-left:25px;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+
+.table_like_head .cell {
+	border-left:  1px solid #9ea6b6;
+	text-align: center;
+}
+
+.close_profile {
+
+	background-color: #ffffff;
+	margin-top:10px;
+	
+	height: 75px;
+}
+.close_profile >div>div {
+	padding-top:25px;
+
+}
+
+.close_profile .cell {
+	border-right: 1px solid #e9e9ef;
+
+}
+.close_profile .cell i,
+.close_profile i{
+		color: #6eb9c5;
+}
+.close_profile .cell i {
+	font-size: 20px;
+}
+.strelka {
+	font-size: 35px;
+	position: relative;
+}
+.strelka>i{
+	position: absolute;
+}
